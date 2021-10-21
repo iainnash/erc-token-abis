@@ -1,14 +1,14 @@
 {
-  "name": "erc-openzeppelin-abis",
+  "name": "erc-token-abis",
   "version": "1.0.0",
-  "description": "ERC OpenZeppelin Abis",
+  "description": "ERC openzeppelin Token abis",
   "author": "iain nash",
   "license": "GPL-3.0",
   "private": false,
   "scripts": {
     "typechain": "hardhat typechain",
     "compile": "hardhat compile",
-    "build": "hardhat compile && scripts/build.js"
+    "build": "hardhat compile && node scripts/build.js"
   },
   "files": [
     "typechain",
